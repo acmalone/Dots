@@ -2,11 +2,18 @@
 ### Arch Linux install list ###
 ###############################
 
-Arch Base install - Linux Zen Kernal linux-firmware
-Base
-grub
+Arch Base install:
+linux-zen 
+linux-firmware
+base
+base-devel
+grub efibootmgr
+wpa_supplicant
+dialog
+reflector
 plymouth
-NetworkManager
+networkmanager network-manger-applet
+wireless_tools
 Bluez & Bluez-util
 Fish
 Kitty
