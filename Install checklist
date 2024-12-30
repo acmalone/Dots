@@ -1,0 +1,32 @@
+###############################
+### Arch Linux install list ###
+###############################
+
+Arch Base install - Linux Zen Kernal
+NetworkManager
+Bluez & Bluez-util
+Fish
+Kitty
+Wayland
+SDDM (Display manager)
+Pipewire
+ffmpeg (Audio/video converter)
+wget
+git
+python
+whois
+sudo
+yay
+fastfetch
+curl
+btop
+less
+rsync
+avahi (mDNS/DNS-SD/Bonjour stack)
+Hyprland
+Hyprlock
+Hyprpaper
+Waybar
+Wofi
+Firefox
+neovim
