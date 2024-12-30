@@ -2,8 +2,10 @@
 ### Arch Linux install list ###
 ###############################
 
-Arch Base install - Linux Zen Kernal
+Arch Base install - Linux Zen Kernal linux-firmware
 Base
+grub
+plymouth
 NetworkManager
 Bluez & Bluez-util
 Fish
