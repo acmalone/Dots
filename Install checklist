@@ -14,7 +14,9 @@ reflector
 plymouth
 networkmanager network-manger-applet
 wireless_tools
-Bluez & Bluez-util
+Bluez
+Bluez-util
+blueman
 Fish
 Kitty
 Wayland
