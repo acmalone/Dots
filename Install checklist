@@ -12,19 +12,14 @@ wpa_supplicant
 dialog
 reflector
 plymouth
-networkmanager network-manger-applet
+networkmanager 
+network-manger-applet
 wireless_tools
-bluez
-bluez-utils
-bluez-libs
 blueman
 Fish
 Kitty
 Wayland
 SDDM (Display manager)
-Pipewire
-pipewire-pulse
-wireplumber
 ffmpeg (Audio/video converter)
 wget
 git
@@ -38,6 +33,12 @@ btop
 less
 rsync
 avahi (mDNS/DNS-SD/Bonjour stack)
+pipewire
+pipewire-pulse
+wireplumber
+bluez
+bluez-libs
+bluez-utils
 Hyprland
 Hyprlock
 Hyprpaper
@@ -45,5 +46,3 @@ Waybar
 Wofi
 Firefox
 neovim
-
-pipewire, pipewire-pulse, wireplumber, bluez, bluez-libs and bluez-utils.
