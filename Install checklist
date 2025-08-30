@@ -1,50 +1,79 @@
-###############################
-### Arch Linux install list ###
-###############################
+###########################################################
+### Arch Linux Hyprland Setup (Wayland + CachyOS Kernel)###
+###########################################################
 
-Arch Base install:
-linux-zen 
-linux-firmware
+***************
+📦 Base System
+***************
 base
 base-devel
-grub efibootmgr
-wpa_supplicant
-dialog
-reflector
-plymouth
-networkmanager 
-network-manger-applet
-wireless_tools
-blueman
-Fish
-Kitty
-Wayland
-SDDM (Display manager)
-ffmpeg (Audio/video converter)
-wget
-git
-python
-whois
-sudo
-yay
-fastfetch
-curl
-btop
-less
-rsync
-avahi (mDNS/DNS-SD/Bonjour stack)
-pipewire
-pipewire-pulse
-wireplumber
+linux-cachyos
+linux-cachyos-headers
+grub
+efibootmgr
+os-prober
+snapper
+btrfs-progs
+
+**************
+🌐 Networking
+**************
+networkmanager
+network-manager-applet
 bluez
-bluez-libs
 bluez-utils
-Hyprland
-Hyprlock
-Hyprpaper
-Waybar
-Wofi
-Firefox
-neovim
-imagemagick
-thunar - file explorer
+bluedevil
+plasma-nm
+
+********************************
+🖼️ Wayland Compositor & Desktop
+********************************
+hyprland
+xdg-desktop-portal-hyprland
+xdg-desktop-portal
+xdg-desktop-portal-gtk
+swww
+waybar
+wofi
+
+*******************
+📂 File Management
+*******************
+thunar
+thunar-volman
+tumbler
+gvfs
+
+**************************
+🔊 Audio (PipeWire stack)
+**************************
+pipewire
+pipewire-alsa
+pipewire-pulse
+pipewire-jack
+wireplumber
+pavucontrol
+
+***************************
+🔑 System & Authentication
+***************************
+polkit-gnome
+
+*********************
+📸 Wayland Utilities
+*********************
+grim
+slurp
+wl-clipboard
+swappy
+
+**********
+🛠️ Extras
+**********
+kitty
+fastfetch
+btop
+
+
+
+
